@@ -1,4 +1,6 @@
+---@diagnostic disable: lowercase-global
 function testar()
+---@diagnostic disable-next-line: lowercase-global
     pontos = 100
 end
 

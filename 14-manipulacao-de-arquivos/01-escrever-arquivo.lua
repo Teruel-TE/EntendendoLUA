@@ -1,8 +1,11 @@
 local arquivo = io.open("dados.txt", "w")
 
+---@diagnostic disable-next-line: need-check-nil
 arquivo:write("Jogador: Cupim\n")
+---@diagnostic disable-next-line: need-check-nil
 arquivo:write("Pontuacao: 100\n")
 
+---@diagnostic disable-next-line: need-check-nil
 arquivo:close()
 
 --[[
